@@ -64,16 +64,48 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 200,
                         margin: const EdgeInsets.symmetric(
                             horizontal: 10, vertical: 10),
+                        padding: const EdgeInsets.all(10),
                         decoration: BoxDecoration(
-                            color: Colors.amberAccent,
+                            color: Colors.deepPurple,
                             border: Border.all(),
                             borderRadius: BorderRadius.circular(15)),
-                        child: const Center(
-                            child: Text(
-                          'SOAL A',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.w500),
-                        )),
+                        child: Stack(
+                          children: [
+                            Align(
+                              alignment: Alignment.bottomRight,
+                              child: Image.asset(
+                                'assets/icons/product.png',
+                                width: 120,
+                              ),
+                            ),
+                            const Align(
+                              alignment: Alignment.topLeft,
+                              child: Padding(
+                                padding: EdgeInsets.symmetric(
+                                    horizontal: 20, vertical: 20),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      'SOAL A',
+                                      style: TextStyle(
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.white),
+                                    ),
+                                    Text(
+                                      'Daftar Produk',
+                                      style: TextStyle(
+                                          fontSize: 10,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.white),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -89,16 +121,48 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 200,
                         margin: const EdgeInsets.symmetric(
                             horizontal: 10, vertical: 10),
+                        padding: const EdgeInsets.all(10),
                         decoration: BoxDecoration(
-                            color: Colors.blueAccent,
+                            color: Colors.deepPurple,
                             border: Border.all(),
                             borderRadius: BorderRadius.circular(15)),
-                        child: const Center(
-                            child: Text(
-                          'SOAL B',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.w500),
-                        )),
+                        child: Stack(
+                          children: [
+                            Align(
+                              alignment: Alignment.bottomRight,
+                              child: Image.asset(
+                                'assets/icons/number.png',
+                                width: 100,
+                              ),
+                            ),
+                            const Align(
+                              alignment: Alignment.topLeft,
+                              child: Padding(
+                                padding: EdgeInsets.symmetric(
+                                    horizontal: 20, vertical: 20),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      'SOAL B',
+                                      style: TextStyle(
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.white),
+                                    ),
+                                    Text(
+                                      'Number Converter',
+                                      style: TextStyle(
+                                          fontSize: 10,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.white),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -118,16 +182,48 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 200,
                         margin: const EdgeInsets.symmetric(
                             horizontal: 10, vertical: 10),
+                        padding: const EdgeInsets.all(10),
                         decoration: BoxDecoration(
-                            color: Colors.greenAccent,
+                            color: Colors.deepPurple,
                             border: Border.all(),
                             borderRadius: BorderRadius.circular(15)),
-                        child: const Center(
-                            child: Text(
-                          'SOAL C',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.w500),
-                        )),
+                        child: Stack(
+                          children: [
+                            Align(
+                              alignment: Alignment.bottomRight,
+                              child: Image.asset(
+                                'assets/icons/string.png',
+                                width: 100,
+                              ),
+                            ),
+                            const Align(
+                              alignment: Alignment.topLeft,
+                              child: Padding(
+                                padding: EdgeInsets.symmetric(
+                                    horizontal: 20, vertical: 20),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      'SOAL C',
+                                      style: TextStyle(
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.white),
+                                    ),
+                                    Text(
+                                      'Character Count',
+                                      style: TextStyle(
+                                          fontSize: 10,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.white),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -143,16 +239,48 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 200,
                         margin: const EdgeInsets.symmetric(
                             horizontal: 10, vertical: 10),
+                        padding: const EdgeInsets.all(10),
                         decoration: BoxDecoration(
-                            color: Colors.lightGreen,
+                            color: Colors.deepPurple,
                             border: Border.all(),
                             borderRadius: BorderRadius.circular(15)),
-                        child: const Center(
-                            child: Text(
-                          'SOAL D',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.w500),
-                        )),
+                        child: Stack(
+                          children: [
+                            Align(
+                              alignment: Alignment.bottomRight,
+                              child: Image.asset(
+                                'assets/icons/urut.png',
+                                width: 120,
+                              ),
+                            ),
+                            const Align(
+                              alignment: Alignment.topLeft,
+                              child: Padding(
+                                padding: EdgeInsets.symmetric(
+                                    horizontal: 20, vertical: 20),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      'SOAL D',
+                                      style: TextStyle(
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.white),
+                                    ),
+                                    Text(
+                                      'Pengulangan Angka',
+                                      style: TextStyle(
+                                          fontSize: 10,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.white),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -170,14 +298,49 @@ class _MyHomePageState extends State<MyHomePage> {
                   margin:
                       const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                   decoration: BoxDecoration(
-                      color: Colors.redAccent,
+                      color: Colors.deepPurple,
                       border: Border.all(),
                       borderRadius: BorderRadius.circular(15)),
-                  child: const Center(
-                      child: Text(
-                    'SOAL D',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
-                  )),
+                  child: Stack(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Align(
+                          alignment: Alignment.bottomRight,
+                          child: Image.asset(
+                            'assets/icons/text.png',
+                            width: 80,
+                          ),
+                        ),
+                      ),
+                      const Align(
+                        alignment: Alignment.topLeft,
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(
+                              horizontal: 20, vertical: 30),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'SOAL E',
+                                style: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.w500,
+                                    color: Colors.white),
+                              ),
+                              Text(
+                                'Text Format',
+                                style: TextStyle(
+                                    fontSize: 10,
+                                    fontWeight: FontWeight.w500,
+                                    color: Colors.white),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],

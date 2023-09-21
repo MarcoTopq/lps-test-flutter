@@ -33,7 +33,7 @@ class _CharacterCountState extends State<CharacterCount> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Character Count'),
-        backgroundColor: Colors.greenAccent,
+        backgroundColor: Colors.deepPurple.withOpacity(0.4),
         titleTextStyle: const TextStyle(color: Colors.black),
       ),
       body: Padding(

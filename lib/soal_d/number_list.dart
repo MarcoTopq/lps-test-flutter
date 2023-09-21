@@ -15,7 +15,7 @@ class _NumberListState extends State<NumberList> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Pengulangan Angka'),
-        backgroundColor: Colors.lightGreen,
+        backgroundColor: Colors.deepPurple.withOpacity(0.4),
         titleTextStyle: const TextStyle(color: Colors.black),
       ),
       body: Column(

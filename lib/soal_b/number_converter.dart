@@ -46,7 +46,7 @@ class _NumberConverterState extends State<NumberConverter> {
           'Number Converter',
         ),
         titleTextStyle: const TextStyle(color: Colors.black),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.deepPurple.withOpacity(0.4),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

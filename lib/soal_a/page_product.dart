@@ -33,7 +33,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
       appBar: AppBar(
         title: const Text('Daftar Produk'),
         titleTextStyle: const TextStyle(color: Colors.black),
-        backgroundColor: Colors.amberAccent,
+        backgroundColor: Colors.deepPurple.withOpacity(0.4),
       ),
       body: ListView.builder(
         itemCount: products.length,

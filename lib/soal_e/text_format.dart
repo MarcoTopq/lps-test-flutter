@@ -31,8 +31,8 @@ class _TextFormatScreenState extends State<TextFormatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Text Format App'),
-        backgroundColor: Colors.redAccent,
+        title: const Text('Text Format'),
+        backgroundColor: Colors.deepPurple.withOpacity(0.4),
         titleTextStyle: const TextStyle(color: Colors.black),
       ),
       body: Padding(
